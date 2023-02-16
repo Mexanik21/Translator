@@ -8,8 +8,8 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Do you want to delete?"
-        android:textSize="20sp"
+        android:textSize="18sp"
         android:textAlignment="center"
-        android:textColor="@color/black"
+        android:textColor="#DA0000"
         android:textStyle="bold"/>
 </LinearLayout>

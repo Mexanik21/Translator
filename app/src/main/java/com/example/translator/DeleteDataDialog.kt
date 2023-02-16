@@ -19,7 +19,7 @@ class DeleteDataDialog(): AppCompatDialogFragment() {
         var view = layoutInflater.inflate(R.layout.delete_dialog, null)
         appDataBase = AppDataBase.getInstance(requireContext())
         builder.setView(view)
-            .setTitle("Delete data")
+            .setTitle("Delete")
             .setPositiveButton("delete", DialogInterface.OnClickListener { _, _ ->
                 data.id?.let { appDataBase.dataDao().removeData(it) }
                 activity?.finish()
