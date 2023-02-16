@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DataActivity"
+    android:orientation="vertical"
+    android:padding="10dp">
+
+
+
+
+    <TextView
+        android:layout_marginTop="100dp"
+        android:id="@+id/words"
+        android:text="Salom"
+        android:textAlignment="center"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:layout_marginTop="10dp"
+        android:id="@+id/tr"
+        android:textSize="18sp"
+        android:textAlignment="center"
+        android:text="dsadhasufhadshgfags"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:layout_marginTop="10dp"
+        android:id="@+id/dr"
+        android:textAlignment="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/fab2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|right"
+            android:clickable="true"
+            android:backgroundTint="#F44336"
+            app:tint="@null"
+            app:srcCompat="@drawable/ic_action_name"
+            android:layout_marginRight="20dp"
+            android:layout_marginBottom="20dp"/>
+    </FrameLayout>
+
+</LinearLayout>
